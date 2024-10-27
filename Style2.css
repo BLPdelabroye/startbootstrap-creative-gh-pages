@@ -1,0 +1,78 @@
+/* Style de base pour le body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Le bandeau (header) */
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Bandeau transparent */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between; /* Espace entre le titre et les boutons */
+    align-items: center; /* Alignement vertical centré */
+}
+
+/* Réduction du bandeau lorsque l'utilisateur remonte en haut */
+#header.shrink {
+    padding: 10px; /* Réduction de la taille */
+    background-color: rgba(0, 0, 0, 0.9); /* Change légèrement la couleur */
+}
+
+/* Style du logo (titre LAN Parties) */
+#header .logo h1 {
+    color: white;
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Style de la barre de navigation */
+#header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+/* Les liens de navigation */
+#header nav ul li {
+    display: inline-block;
+}
+
+#header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+#header nav ul li a:hover {
+    background-color: #f05454;
+    border-radius: 5px;
+}
+
+/* Style du contenu pour laisser de l'espace au header */
+.content {
+    padding-top: 100px; /* Espace en haut pour le header */
+}
+
+/* Autres styles pour le contenu (ajuste selon tes besoins) */
+.content h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.content p {
+    text-align: center;
+    font-size: 18px;
+}

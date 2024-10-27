@@ -1,0 +1,238 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.cv-container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Bandeau de tête */
+.header-banner {
+    background-color: #2d3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-banner nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header-banner nav ul li {
+    margin: 0 15px;
+}
+
+.header-banner nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-banner nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Bandeau de pied de page */
+.footer-banner {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-banner nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-banner nav ul li {
+    margin: 0 15px;
+}
+
+.footer-banner nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-banner nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Style du CV */
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+    color: black;
+}
+
+header h1 span {
+    display: block;
+    color: #cc0000;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+header p {
+    font-size: 18px;
+    margin: 5px 0 20px 0;
+}
+
+.contact-info {
+    font-size: 16px;
+}
+
+.contact-info a {
+    color: red;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.cv-section {
+    margin-bottom: 30px;
+}
+
+.cv-section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #000;
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.experience-item h3 {
+    font-size: 20px;
+    margin: 0;
+    color: #000;
+}
+
+.experience-item p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #2d3e50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer  p {
+    margin: 0;
+}
+
+
+/* code pour les drapeaux */
+
+.language-switch {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.language-switch .flag {
+    width: 32px;
+    height: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.language-switch .flag:hover {
+    opacity: 0.8;
+}
+
+/* Style général du bandeau */
+.navbar {
+    background-color: #293241;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 20px;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style pour le titre du bandeau */
+.navbar-title h1 {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Style pour les liens de navigation */
+.navbar-links ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+}
+
+.navbar-links ul li {
+    display: inline;
+}
+
+.navbar-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.navbar-links ul li a:hover {
+    color: #fca311;
+}
+
+/* Style des drapeaux pour le changement de langue */
+.language-switch {
+    display: flex;
+    gap: 10px;
+}
+
+.language-switch .flag {
+    width: 30px;
+    height: auto;
+}
+
+/* Ajout de margin-top pour ne pas que le contenu soit caché derrière le bandeau */
+.cv-container {
+    margin-top: 100px;
+}
