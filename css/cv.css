@@ -1,0 +1,88 @@
+/* General style for the CV container */
+.cv-container {
+    margin: 2em auto;
+    max-width: 800px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Header  CV */
+.cv-container .cv-header {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.cv-container .cv-header h1 {
+    font-size: 2em;
+    color: #000;
+    margin: 0;
+}
+
+.cv-container .cv-header h2 {
+    font-size: 1.8em;
+    color: #d00;
+    margin: 0;
+}
+
+.cv-container .cv-header p {
+    font-size: 1em;
+    margin: 0.3em 0;
+}
+
+/* Sections of CV */
+.cv-container .cv-section {
+    margin-top: 1em;
+}
+
+.cv-container .cv-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    color: #333;
+    font-weight: bold;
+    border-bottom: 1px solid #333;
+    padding-bottom: 0.2em;
+}
+
+/* Experiences */
+.cv-container .cv-experience h4 {
+    font-size: 1.2em;
+    margin: 0.5em 0 0.2em;
+    font-weight: bold;
+}
+
+.cv-container .cv-experience p {
+    margin: 0.2em 0;
+}
+
+/* Skills and know-how */
+.cv-container ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.cv-container ul li {
+    margin-bottom: 0.3em;
+}
+
+/* Adapt fonts and colors for texts */
+.cv-container p, .cv-container li {
+    font-size: 1em;
+    color: #333;
+}
+
+/* Style for language flags container */
+.language-switch {
+    display: inline-flex;
+    gap: 10px;
+    align-items: center;
+    margin-right: 50px;
+}
+
+/* Style for flag icons */
+.flag-icon {
+    width: 24px;   
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
