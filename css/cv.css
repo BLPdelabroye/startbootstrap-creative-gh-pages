@@ -10,6 +10,7 @@
 .cv-container .cv-header {
     text-align: center;
     margin-bottom: 1em;
+    margin-top: 60px;
 }
 
 .cv-container .cv-header h1 {
@@ -31,12 +32,13 @@
 
 /* Sections of CV */
 .cv-container .cv-section {
-    margin-top: 1em;
+    margin-top: 30px;
 }
 
 .cv-container .cv-section h3 {
     font-size: 1.5em;
-    margin-bottom: 0.5em;
+    margin-bottom: 10 px;
+    margin-top: 30px;
     color: #333;
     font-weight: bold;
     border-bottom: 1px solid #333;

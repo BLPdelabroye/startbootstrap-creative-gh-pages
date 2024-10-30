@@ -97,6 +97,10 @@ body {
     margin-bottom: 10px;
 }
 
+.lan-intro  h2 {
+    margin-top: 120px;
+}
+
 .lan-intro p, .example-text p {
     font-size: 1.1em;
     line-height: 1.6;
