@@ -143,6 +143,10 @@ body {
     margin-bottom: 40px;
 }
 
+  b {
+    color: red;
+}
+
 .lan-entry h3 {
     font-size: 1.5em;
     color: #333;
