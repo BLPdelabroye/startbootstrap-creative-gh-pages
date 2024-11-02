@@ -140,6 +140,9 @@ body {
 }
 
 .lan-entry {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
     margin-bottom: 40px;
 }
 
@@ -170,4 +173,38 @@ body {
 .lan-organisation {
     max-width: 900px;
     border-radius: 8px;
+}
+
+/* style for navigation buttons */
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.nav-button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.prev-button {
+    margin-right: auto;
+}
+
+.next-button {
+    margin-left: auto;
+}
+
+/* Style for the buttons disabled */
+.nav-button.disabled {
+    background-color: #ccc;  
+    color: #666;  
+    pointer-events: none;  /* disabled the click */
+    cursor: default;
 }
